@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /*
+ cores:
+ #D91E63
+ #049DBF
+ #04D99D
+ #F2CB05
+ #F2F2F2
+ */
+
+ .logo {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+ }
+
+ .texto-logo {
+    font-family:cursive;
+    text-align: center;
+    color: #D91E63;
+ }
+
+ .sobre-nos {
+    margin-top: 8px;
+    background-color: #04D99D ;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .paragrafo {
+    color: #049DBF;
+    font-family: cursive;
+ }
+
+ .conteudo {
+    padding: 12px;
+    height: 400px;
+    background-color: #04D99D;
+ }
+
+ .quadro1 {
+    height: 150px;
+    width: 150px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: red;
+ }
+
+ .quadro2 {
+    float: right;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+ }
+
+
