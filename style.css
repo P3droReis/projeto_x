@@ -19,9 +19,6 @@
    align-items: center;
    justify-content: center;
 }
-
-
-
  .logo {
     width: 300px;
     height: 150px;
@@ -34,9 +31,14 @@
     color: #D91E63;
  }
 
+ main {
+   background-color: #04D99D;
+   height: 800px;
+ }
+
  .sobre-nos {
     margin-top: 8px;
-    background-color: #04D99D ;
+    background-color: #0000ff ;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -56,18 +58,33 @@
     background-color: #04D99D;
  }
 
+
  .quadro1 {
-    height: 150px;
-    width: 150px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    background-color: red;
+   background-color: #ffffff;
+   height: 280px;
+   display: flex;
+   align-items: center;
  }
 
  .quadro2 {
-    float: right;
+   background-color: #00ff00;
+   height: 280px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
+
+ .quadro1 > div {
     height: 150px;
     width: 150px;
+    margin: 12px;
+    background-color: red;
+ }
+
+ .quadro2 > div {
+    height: 150px;
+    width: 150px;
+    margin: 12px;
     background-color: blue;
  }
 
