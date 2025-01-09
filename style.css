@@ -39,7 +39,7 @@
  .sobre-nos {
     margin-top: 8px;
     background-color: #0000ff ;
-    height: 280px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,14 +61,14 @@
 
  .quadro1 {
    background-color: #ffffff;
-   height: 280px;
+   height: 400px;
    display: flex;
    align-items: center;
  }
 
  .quadro2 {
    background-color: #00ff00;
-   height: 280px;
+   height: 400px;
    display: flex;
    justify-content: flex-end;
    align-items: center;
