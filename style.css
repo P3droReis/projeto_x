@@ -33,7 +33,7 @@
 
  main {
    background-color: #04D99D;
-   height: 800px;
+   height: 1200px;
  }
 
  .sobre-nos {
@@ -60,14 +60,14 @@
 
 
  .quadro1 {
-   background-color: #ffffff;
+   /*background-color: #ffffff;*/
    height: 400px;
    display: flex;
    align-items: center;
  }
 
  .quadro2 {
-   background-color: #00ff00;
+   /*background-color: #00ff00;*/
    height: 400px;
    display: flex;
    justify-content: flex-end;
