@@ -46,18 +46,21 @@
  }
 
  .paragrafo {
-    padding: 12px;
-    color: #ffffff;
+    padding: 15px;
     text-align: justify;
-    font-family: cursive;
  }
 
- .conteudo {
-    padding: 12px;
-    height: 400px;
-    background-color: #04D99D;
+ .paragrafo > h1 {
+   font-size: 2em;
+   font-family: cursive;
+   color: #ffffff;
  }
 
+ .paragrafo > p {
+   font-size: 18px;
+   font-family: cursive;
+   color: #ffffff;
+ }
 
  .quadro1 {
    /*background-color: #ffffff;*/
