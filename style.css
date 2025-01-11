@@ -42,7 +42,7 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
  }
 
  .paragrafo {
@@ -57,7 +57,7 @@
  }
 
  .paragrafo > p {
-   font-size: 20px;
+   font-size: 22px;
  }
 
  .quadro1 {
