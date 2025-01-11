@@ -47,19 +47,17 @@
 
  .paragrafo {
     padding: 15px;
+    font-family: cursive;
+    color: #ffffff;
     text-align: justify;
  }
 
  .paragrafo > h1 {
-   font-size: 2em;
-   font-family: cursive;
-   color: #ffffff;
+   font-size: 2.5em; 
  }
 
  .paragrafo > p {
-   font-size: 18px;
-   font-family: cursive;
-   color: #ffffff;
+   font-size: 20px;
  }
 
  .quadro1 {
