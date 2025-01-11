@@ -13,7 +13,7 @@
  */
 
 .topo {
-   height: 550px;
+   height: 600px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -38,7 +38,7 @@
 
  .sobre-nos {
     margin-top: 8px;
-    background-color: #0000ff ;
+    background-color: #04D99D ;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
 
  .paragrafo {
     padding: 12px;
-    color: #049DBF;
+    color: #ffffff;
     text-align: justify;
     font-family: cursive;
  }
