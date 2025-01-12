@@ -122,10 +122,22 @@
       align-items: center;
    }
    
-
    .fotos{
      border-radius: 12px;
      height: 280px;
      width: 300px;
+   }
+
+   .contatos {
+      background-color: #00ff00;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .contatos > div  {
+      background-color: #D91E63;
+      margin: 12px;
    }
 
