@@ -77,8 +77,8 @@
  .quadro2 {
     height: 500px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: row-reverse;
+    align-items: flex-end;
    }
    
    .quadro1 > div {
