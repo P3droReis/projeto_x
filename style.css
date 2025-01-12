@@ -42,7 +42,7 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
  }
 
  .paragrafo {
@@ -78,7 +78,7 @@
     height: 500px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end;
+    align-items: center;
    }
    
    .quadro1 > div {
