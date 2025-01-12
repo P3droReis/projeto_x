@@ -33,7 +33,7 @@
 
  main {
    background-color: #04D99D;
-   height: 1500px;
+   height: 2000px;
  }
 
  .sobre-nos {
@@ -80,6 +80,14 @@
     flex-direction: row-reverse;
     align-items: center;
    }
+
+   .quadro3 {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
    
    .quadro1 > div {
       background-color: #ffffff;
@@ -93,6 +101,17 @@
    }
    
    .quadro2 > div {
+      background-color: #ffffff;
+      border-radius: 12px;
+      height: 300px;
+      width: 320px;
+      margin: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .quadro3 > div {
       background-color: #ffffff;
       border-radius: 12px;
       height: 300px;
