@@ -129,15 +129,26 @@
    }
 
    .contatos {
-      background-color: #00ff00;
-      height: 400px;
+      height: 500px;
       display: flex;
       flex-direction: column;
       justify-content: center;
    }
 
    .contatos > div  {
-      background-color: #D91E63;
       margin: 12px;
+   }
+   
+   .lista-contatos {
+      font-family: cursive;
+      color: #D91E63;
+   }
+
+   .lista-contatos > h1 {
+      font-size: 2.5em;
+   }
+
+   .lista-contatos > p {
+      font-size: 22px;
    }
 
