@@ -12,6 +12,10 @@
  #F2F2F2
  */
 
+.efeito-topo {
+   visibility: hidden;
+}
+
 .topo {
    height: 600px;
    display: flex;
