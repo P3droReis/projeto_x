@@ -1,6 +1,6 @@
 window.aparecer = ScrollReveal({reset:true});
 
-aparecer.reveal('.efeito-topo',{
+aparecer.reveal('.topo1',{
     duration: 4500
 });
 
