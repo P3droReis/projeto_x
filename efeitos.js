@@ -27,5 +27,8 @@ aparecer.reveal('.efeito2',{
     origin: 'right'
 });
 
+aparecer.reveal('.efeito-lista-contatos',{
+    duration: 4500
+});
 
 

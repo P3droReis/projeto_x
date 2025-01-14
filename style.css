@@ -12,7 +12,7 @@
  #F2F2F2
  */
 
-.topo1, .efeito-sobre-nos, .q1-titulo, .efeito1, .efeito2 {
+.topo1, .efeito-sobre-nos, .q1-titulo, .efeito1, .efeito2, .efeito-lista-contatos {
    visibility: hidden;
 }
 
@@ -67,11 +67,11 @@
  }
 
  .paragrafo > h1 {
-   font-size: 2.5em; 
+   font-size: 3em; 
  }
 
  .paragrafo > p {
-   font-size: 22px;
+   font-size: 32px;
  }
 
  .quadro1 {
@@ -82,7 +82,7 @@
  }
 
  .quadro1 > h1 {
-    font-size: 2.5em; 
+    font-size: 3em; 
     padding-left: 15px;
     margin-bottom: 12px;
     font-family: cursive;
@@ -144,7 +144,7 @@
    }
 
    .contatos {
-      height: 900px;
+      height: 920px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -160,7 +160,7 @@
    }
 
    .lista-contatos > h1 {
-      font-size: 2.5em;
+      font-size: 3em;
    }
 
    .lista-contatos > p {
