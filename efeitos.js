@@ -9,3 +9,8 @@ aparecer.reveal('.efeito-sobre-nos',{
     distance: '100px'
 });
 
+aparecer.reveal('.q1-titulo',{
+    duration: 3500,
+    distance: '100px'
+});
+
