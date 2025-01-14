@@ -5,7 +5,7 @@ aparecer.reveal('.topo1',{
 });
 
 aparecer.reveal('.efeito-sobre-nos',{
-    duration: 3500,
+    duration: 4500,
     distance: '100px'
 });
 
