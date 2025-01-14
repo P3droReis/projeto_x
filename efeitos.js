@@ -10,7 +10,7 @@ aparecer.reveal('.efeito-sobre-nos',{
 });
 
 aparecer.reveal('.q1-titulo',{
-    duration: 3500,
+    duration: 2000,
     distance: '100px',
 });
 
@@ -24,7 +24,7 @@ aparecer.reveal('.efeito1',{
 aparecer.reveal('.efeito2',{
     duration: 3500,
     distance: '100px',
-    origin: 'right'
+    origin: 'bottom',
 });
 
 aparecer.reveal('.efeito-lista-contatos',{
