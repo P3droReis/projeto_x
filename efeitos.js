@@ -11,6 +11,21 @@ aparecer.reveal('.efeito-sobre-nos',{
 
 aparecer.reveal('.q1-titulo',{
     duration: 3500,
-    distance: '100px'
+    distance: '100px',
 });
+
+aparecer.reveal('.efeito1',{
+    duration: 3500,
+    distance: '100px',
+    origin: 'left',
+    delay: 500
+});
+
+aparecer.reveal('.efeito2',{
+    duration: 3500,
+    distance: '100px',
+    origin: 'right'
+});
+
+
 
