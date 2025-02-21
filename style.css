@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+
  /*
  cores:
  #D91E63
@@ -12,25 +16,31 @@
  #F2F2F2
  */
 
-.topo1, .efeito-sobre-nos, .q1-titulo, .efeito1, .efeito2, .efeito-lista-contatos {
+html, body {
+   height: 100%;
+}
+
+
+.efeito-topo, .efeito-sobre-nos, .q1-titulo, .efeito1, .efeito2, .efeito-lista-contatos {
    visibility: hidden;
 }
 
 .topo {
-   height: 950px;
- }
-
- .topo1 {
-   height: 475px;
+    
+   height: 400px;
    display: flex;
-   flex-direction: column;
-   align-items: center;
    justify-content: center;
+   align-items: center;
  }
 
- .topo2 {
-   background-color: #04D99D;
-   height: 475px;
+ .logo-desing {
+   width: 600px;
+   height: 200px;
+   padding-top: 11px;
+   display: flex;
+   justify-content: center;
+   border: 1px solid, #049DBF ;
+   box-shadow: 5px 10px #049DBF;
  }
 
 
@@ -39,39 +49,31 @@
     height: 150px;
  }
 
- .texto-logo {
-    font-family:cursive;
-    font-size: 20px;
-    text-align: center;
-    color: #D91E63;
- }
-
  main {
    background-color: #04D99D;
-   height: 2500px;
  }
 
  .sobre-nos {
-    background-color: #04D99D ;
-    height: 900px;
+    height: 600px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    
  }
 
- .paragrafo {
-    padding: 15px;
-    font-family: cursive;
+ .sobre-nos > p {
+    font-size: 25px;
+    font-family:'Merienda';
     color: #ffffff;
     text-align: justify;
  }
 
- .paragrafo > h1 {
-   font-size: 3em; 
- }
-
- .paragrafo > p {
-   font-size: 32px;
+ .sobre-nos > h1 {
+   font-size: 3em;
+   color: #ffffff;
+   font-family:'Merienda';
  }
 
  .quadro1 {

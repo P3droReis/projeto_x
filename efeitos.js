@@ -1,13 +1,11 @@
 window.aparecer = ScrollReveal({reset:true});
 
-aparecer.reveal('.topo1',{
+aparecer.reveal('.efeito-topo',{
     duration: 4500
 });
 
 aparecer.reveal('.efeito-sobre-nos',{
-    duration: 4500,
-    distance: '100px',
-    delay: 1000 
+    duration: 5000,
 });
 
 aparecer.reveal('.q1-titulo',{
