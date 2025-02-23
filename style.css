@@ -21,7 +21,7 @@ html, body {
 }
 
 
-.efeito-topo, .efeito-sobre-nos, .q1-titulo, .efeito1, .efeito2, .efeito-lista-contatos {
+.efeito-topo, .efeito-sobre-nos, .f1, .f2, .f3, .q1-titulo, .efeito-lista-contatos {
    visibility: hidden;
 }
 
@@ -65,136 +65,85 @@ html, body {
 
  .sobre-nos > p {
     font-size: 25px;
-    font-family:'Merienda';
+    font-family:'Merienda', 'Arial';
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
  }
 
  .sobre-nos > h1 {
    font-size: 3em;
    color: #ffffff;
-   font-family:'Merienda';
+   font-family:'Merienda', 'Arial';
+
  }
 
- .quadro1 {
+ .servicos {
    height: 600px;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .servicos-painel {
+   background-color: #ffffff;
+   height: 400px;
+   width: 990px;
+   border-radius: 12px;
+   margin-top: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
  }
 
- .quadro1 > h1 {
+ .servicos > h1 {
     font-size: 3em; 
     padding-left: 15px;
     margin-bottom: 12px;
-    font-family: cursive;
+    font-family: 'Merienda', 'Arial';
     color: #ffffff;
  }
-
- .quadro2 {
-    height: 500px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-   }
-
-   .quadro3 {
-      height: 500px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
    
-   .quadro1 > div {
-      background-color: #ffffff;
-      border-radius: 12px;
-      height: 378px;
-      width: 340px;
-      margin: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .quadro1 > div > p {
-      font-family: cursive;
-      padding: 8px;
-      color: #D91E63;
-      text-align: justify;
-    }
-   
-   .quadro2 > div {
-      background-color: #ffffff;
-      border-radius: 12px;
-      height: 378px;
-      width: 340px;
-      margin: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .quadro2 > div > p {
-      font-family: cursive;
-      padding: 8px;
-      color: #D91E63;
-      text-align: justify;
-    }
-
-   .quadro3 > div {
-      background-color: #ffffff;
-      border-radius: 12px;
-      height: 378px;
-      width: 340px;
-      margin: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .quadro3 > div > p {
-      font-family: cursive;
-      padding: 8px;
-      color: #D91E63;
-      text-align: justify;
-    }
-
-   
-   .fotos{
+ .fotos{
      border-radius: 12px;
      height: 280px;
      width: 320px;
-   }
+     margin-top: 8px;
+ }
 
-   .contatos {
-      height: 920px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-   }
+ .f1 {
+   margin-right: 8px;
+ }
 
-   .contatos > div  {
-      margin: 12px;
-   }
+ .f2 {
+   margin-right: 8px;
+ }
+
+ .contatos {
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .contatos > div  {
+    margin: 12px;
+ }
    
-   .lista-contatos {
-      font-family: cursive;
-      color: #D91E63;
-   }
+ .lista-contatos {
+    font-family: cursive;
+    color: #D91E63;
+ }
 
-   .lista-contatos > h1 {
-      font-size: 3em;
-   }
+ .lista-contatos > h1 {
+    font-size: 3em;
+ }
 
-   .lista-contatos > p {
-      font-size: 22px;
-   }
+ .lista-contatos > p {
+    font-size: 22px;
+ }
    
-   .social1 {
-      margin-right: 5px;
-   }
+ .social1 {
+    margin-right: 5px;
+ }
 

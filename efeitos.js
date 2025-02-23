@@ -6,25 +6,28 @@ aparecer.reveal('.efeito-topo',{
 
 aparecer.reveal('.efeito-sobre-nos',{
     duration: 5000,
+    delay: 3000,
 });
 
 aparecer.reveal('.q1-titulo',{
     duration: 2000,
-    distance: '100px',
 });
 
-aparecer.reveal('.efeito1',{
-    duration: 3500,
-    distance: '100px',
-    origin: 'left',
+aparecer.reveal('.f1',{
+    duration: 4000,
     delay: 500
 });
 
-aparecer.reveal('.efeito2',{
-    duration: 3500,
-    distance: '100px',
-    origin: 'bottom',
+aparecer.reveal('.f2',{
+    duration: 4000,
+    delay: 1000
 });
+
+aparecer.reveal('.f3',{
+    duration: 4000,
+    delay: 1500
+});
+
 
 aparecer.reveal('.efeito-lista-contatos',{
     duration: 4500
