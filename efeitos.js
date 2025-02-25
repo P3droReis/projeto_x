@@ -6,7 +6,7 @@ aparecer.reveal('.efeito-topo',{
 
 aparecer.reveal('.efeito-sobre-nos',{
     duration: 5000,
-    delay: 3000,
+    delay: 1000,
 });
 
 aparecer.reveal('.q1-titulo',{
