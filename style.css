@@ -121,30 +121,59 @@ html, body {
  }
 
  .contatos {
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 600px;
  }
 
- .contatos > div  {
+ .contatos {
     margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
    
  .lista-contatos {
-    font-family: cursive;
-    color: #D91E63;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
  }
 
  .lista-contatos > h1 {
     font-size: 3em;
+    font-family: 'Merienda';
+    color: #049DBF;
  }
 
  .lista-contatos > p {
     font-size: 22px;
+    font-family: 'Merienda';
+    color: #049DBF;
  }
    
  .social1 {
     margin-right: 5px;
  }
+
+ footer {
+   height: 40px;
+   text-align: center;
+   padding-top: 10px;
+   background-color: #04D99D;
+ }
+
+ footer > P {
+   font-family: 'Merienda';
+   color: #ffffff;
+ }
+
+ .dev {
+   text-decoration: none;
+   color: #ffffff;
+ }
+
+ .dev:hover {
+   color: #049DBF;
+   text-decoration: underline;
+ }
+
+
 
